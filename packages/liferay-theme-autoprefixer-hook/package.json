@@ -1,17 +1,17 @@
 {
-  "name": "liferay-theme-autoprefixer-hook",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "autoprefixer": "^8.3.0",
-    "gulp-autoprefixer": "^5.0.0",
-    "path": "^0.12.7",
-    "run-sequence": "^2.2.1"
-  }
+	"name": "liferay-theme-autoprefixer-hook",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"autoprefixer": "^8.3.0",
+		"gulp-autoprefixer": "^5.0.0",
+		"path": "^0.12.7",
+		"run-sequence": "^2.2.1"
+	}
 }
