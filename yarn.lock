@@ -244,6 +244,25 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-name-amd-modules@1.6.1, babel-plugin-name-amd-modules@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-name-amd-modules/-/babel-plugin-name-amd-modules-1.6.1.tgz#0d2ec8c85b64bd3b60e32943af6ba6d937f41d49"
+  dependencies:
+    liferay-npm-build-tools-common "1.6.1"
+    read-json-sync "^1.1.1"
+
+babel-plugin-namespace-amd-define@1.6.1, babel-plugin-namespace-amd-define@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-namespace-amd-define/-/babel-plugin-namespace-amd-define-1.6.1.tgz#400d2dcf99e3947e2d8755d9247fc1f23555a74a"
+  dependencies:
+    liferay-npm-build-tools-common "1.6.1"
+
+babel-plugin-normalize-requires@1.6.1, babel-plugin-normalize-requires@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-normalize-requires/-/babel-plugin-normalize-requires-1.6.1.tgz#ce655e2255c0a8e90935c3bdca230f38e603a8b7"
+  dependencies:
+    liferay-npm-build-tools-common "1.6.1"
+
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
@@ -440,6 +459,14 @@ babel-plugin-transform-exponentiation-operator@^6.22.0:
     babel-plugin-syntax-exponentiation-operator "^6.8.0"
     babel-runtime "^6.22.0"
 
+babel-plugin-transform-node-env-inline@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-node-env-inline/-/babel-plugin-transform-node-env-inline-0.2.0.tgz#b13c2aafd4a7cbefeba07091a1134d402147d192"
+
+babel-plugin-transform-node-env-inline@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-node-env-inline/-/babel-plugin-transform-node-env-inline-0.4.0.tgz#d6a703e630eb3bbfbe0c818c7cabedfcc0052f10"
+
 babel-plugin-transform-regenerator@^6.22.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.26.0.tgz#e0703696fbde27f0a3efcacf8b4dca2f7b3a8f2f"
@@ -452,6 +479,14 @@ babel-plugin-transform-strict-mode@^6.24.1:
   dependencies:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
+
+babel-plugin-wrap-modules-amd@1.6.1, babel-plugin-wrap-modules-amd@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-wrap-modules-amd/-/babel-plugin-wrap-modules-amd-1.6.1.tgz#ba421b5b270a781d6145db914b1f85f4c5fdc62e"
+  dependencies:
+    babel-template "^6.25.0"
+    liferay-npm-build-tools-common "1.6.1"
+    read-json-sync "^1.1.1"
 
 babel-preset-env@^1.6.1:
   version "1.6.1"
@@ -488,6 +523,16 @@ babel-preset-env@^1.6.1:
     invariant "^2.2.2"
     semver "^5.3.0"
 
+babel-preset-liferay-standard@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-liferay-standard/-/babel-preset-liferay-standard-1.6.1.tgz#8a959a270562076e97ad500bb9726b0be4d378dc"
+  dependencies:
+    babel-plugin-name-amd-modules "1.6.1"
+    babel-plugin-namespace-amd-define "1.6.1"
+    babel-plugin-normalize-requires "1.6.1"
+    babel-plugin-transform-node-env-inline "0.2.0"
+    babel-plugin-wrap-modules-amd "1.6.1"
+
 babel-register@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-register/-/babel-register-6.26.0.tgz#6ed021173e2fcb486d7acb45c6009a856f647071"
@@ -507,7 +552,7 @@ babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-babel-template@^6.24.1, babel-template@^6.26.0:
+babel-template@^6.24.1, babel-template@^6.25.0, babel-template@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-6.26.0.tgz#de03e2d16396b069f46dd9fff8521fb1a0e35e02"
   dependencies:
@@ -670,6 +715,10 @@ globals@^9.18.0:
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
 
+graceful-fs@^4.1.2:
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
 gulp-autoprefixer@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/gulp-autoprefixer/-/gulp-autoprefixer-5.0.0.tgz#8237c278a69775270a1cafe7d6f101cfcd585544"
@@ -766,6 +815,10 @@ json5@^0.5.1:
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
+
+liferay-npm-build-tools-common@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/liferay-npm-build-tools-common/-/liferay-npm-build-tools-common-1.6.1.tgz#0cb4a60097e0ab5467a8951e4455c98e68f6bd8b"
 
 lodash@^4.17.4:
   version "4.17.10"
@@ -870,6 +923,12 @@ process-nextick-args@~2.0.0:
 process@^0.11.1:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+
+read-json-sync@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/read-json-sync/-/read-json-sync-1.1.1.tgz#43c669ae864aae308dfbbb2721a67e295ec8fff6"
+  dependencies:
+    graceful-fs "^4.1.2"
 
 readable-stream@^2.1.5:
   version "2.3.6"
