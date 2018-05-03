@@ -1,0 +1,10 @@
+{
+  "name": "liferay-theme-npm-build-hook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "liferay-npm-bundler": "^1.6.1",
+    "liferay-npm-bundler-preset-standard": "^1.6.1"
+  }
+}
