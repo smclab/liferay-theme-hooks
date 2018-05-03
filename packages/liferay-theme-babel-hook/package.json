@@ -1,27 +1,30 @@
 {
-  "name": "liferay-theme-babel-hook",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-plugin-name-amd-modules": "^1.6.1",
-    "babel-plugin-namespace-amd-define": "^1.6.1",
-    "babel-plugin-normalize-requires": "^1.6.1",
-    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
-    "babel-plugin-transform-node-env-inline": "^0.4.0",
-    "babel-plugin-wrap-modules-amd": "^1.6.1",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-liferay-standard": "^1.6.1",
-    "browserslist": "^3.2.6",
-    "gulp-babel": "^7.0.1",
-    "path": "^0.12.7",
-    "run-sequence": "^2.2.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "liferay-theme-babel-hook",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"babel-core": "^6.26.3",
+		"babel-plugin-name-amd-modules": "^1.6.1",
+		"babel-plugin-namespace-amd-define": "^1.6.1",
+		"babel-plugin-normalize-requires": "^1.6.1",
+		"babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+		"babel-plugin-transform-node-env-inline": "^0.4.0",
+		"babel-plugin-wrap-modules-amd": "^1.6.1",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-liferay-standard": "^1.6.1",
+		"browserslist": "^3.2.6",
+		"gulp-babel": "^7.0.1",
+		"path": "^0.12.7",
+		"run-sequence": "^2.2.1"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"prettier": "^1.12.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
 }

@@ -1,0 +1,10 @@
+{
+	"extends": ["standard", "eslint:recommended", "plugin:node/recommended"],
+	"rules": {
+		"node/exports-style": ["error", "module.exports"]
+	},
+	"env": {
+		"browser": false,
+		"node": true
+	}
+}

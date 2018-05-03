@@ -1,0 +1,13 @@
+{
+	"printWidth": 80,
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"overrides": [
+		{
+			"files": ".*rc",
+			"options": { "parser": "json" }
+		}
+	]
+}
