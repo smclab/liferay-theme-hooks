@@ -44,7 +44,7 @@ After installing the desired hook add the following to your liferay theme's `pac
 Both hooks let you specify a list of browsers your project needs to support.
 The list of features that need to be transpiled/autoprefixed will be automatically retrived so that you can focus on the important stuff!
 
-For doing that we use [Browserslist](https://github.com/browserslist/browserslist).
+For doing this we use [Browserslist](https://github.com/browserslist/browserslist).
 
 The list of browsers you want your theme to support can be defined in the `package.json` or in a `.browserslistrc` file in your theme's root direcotry.
 
