@@ -1,8 +1,15 @@
 {
-	"extends": ["standard", "eslint:recommended", "plugin:node/recommended"],
+	"extends": [
+		"standard",
+		"plugin:node/recommended",
+		"plugin:es5/no-es2015",
+		"eslint:recommended",
+		"eslint:recommended"
+	],
 	"rules": {
 		"node/exports-style": ["error", "module.exports"]
 	},
+	"plugins": ["es5"],
 	"env": {
 		"browser": false,
 		"node": true
