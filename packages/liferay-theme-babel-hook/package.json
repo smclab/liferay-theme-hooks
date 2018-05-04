@@ -1,5 +1,6 @@
 {
 	"name": "@smclab/liferay-theme-babel-hook",
+	"private": false,
 	"version": "1.0.0",
 	"description":
 		"A Liferay Theme Tasks hook to automate JavaScript transpiling",
