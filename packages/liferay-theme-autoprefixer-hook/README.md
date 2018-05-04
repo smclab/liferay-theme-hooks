@@ -1,4 +1,4 @@
-# liferay-theme-autoprefixer-hook
+# @smclab/liferay-theme-autoprefixer-hook
 
 This hook is meant to be used in combination with liferay-theme-tasks to automatically autoprefix your css.
 
@@ -6,14 +6,14 @@ If you found this hook useful you might consider checking out [liferay-theme-hoo
 
 ## Installation
 
-After you created your theme (for example with the [Liferay Theme Generator](https://github.com/liferay/generator-liferay-theme)) you can add liferay-theme-autoprefixer-hook by installing it inside your root folder:
+After you created your theme (for example with the [Liferay Theme Generator](https://github.com/liferay/generator-liferay-theme)) you can add @smclab/liferay-theme-autoprefixer-hook by installing it inside your root folder:
 
 ```bash
 cd my-awesome-theme
 # With npm:
-npm install --save-dev liferay-theme-autoprefixer-hook
+npm install --save-dev @smclab/liferay-theme-autoprefixer-hook
 # Or alternatively with Yarn:
-yarn add --dev liferay-theme-autoprefixer-hook
+yarn add --dev @smclab/liferay-theme-autoprefixer-hook
 ```
 
 After installing the desired hook add the following to your Liferay theme's `package.json`
@@ -24,7 +24,7 @@ After installing the desired hook add the following to your Liferay theme's `pac
   // ...the rest of your package.json...
   "liferayTheme": {
     "hookModules": [
-      "liferay-theme-autoprefixer-hook"
+      "@smclab/liferay-theme-autoprefixer-hook"
     ]
   }
 }

@@ -1,4 +1,4 @@
-# liferay-theme-babel-hook
+# @smclab/liferay-theme-babel-hook
 
 This hook is meant to be used in combination with liferay-theme-tasks to automatically transpile your javascript code.
 
@@ -11,9 +11,9 @@ After you created your theme (for example with the [Liferay Theme Generator](htt
 ```bash
 cd my-awesome-theme
 # With npm:
-npm install --save-dev liferay-theme-babel-hook
+npm install --save-dev @smclab/liferay-theme-babel-hook
 # Or alternatively with Yarn:
-yarn add --dev liferay-theme-babel-hook
+yarn add --dev @smclab/liferay-theme-babel-hook
 ```
 
 After installing the desired hook add the following to your Liferay theme's `package.json`
@@ -24,7 +24,7 @@ After installing the desired hook add the following to your Liferay theme's `pac
   // ...the rest of your package.json...
   "liferayTheme": {
     "hookModules": [
-      "liferay-theme-babel-hook"
+      "@smclab/liferay-theme-babel-hook"
     ]
   }
 }

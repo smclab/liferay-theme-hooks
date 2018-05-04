@@ -1,5 +1,5 @@
 {
-	"name": "liferay-theme-autoprefixer-hook",
+	"name": "@smclab/liferay-theme-autoprefixer-hook",
 	"version": "1.0.0",
 	"description": "A liferay-theme-task hook for automating css addition of vendor prefixes",
 	"main": "index.js",

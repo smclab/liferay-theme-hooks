@@ -16,11 +16,11 @@ After you created your theme (for example with the [Liferay Theme Generator](htt
 ```bash
 cd my-awesome-theme
 # With npm:
-npm install --save-dev liferay-theme-autoprefixer-hook
-npm install --save-dev liferay-theme-babel-hook
+npm install --save-dev @smclab/liferay-theme-autoprefixer-hook
+npm install --save-dev @smclab/liferay-theme-babel-hook
 # Or alternatively with Yarn:
-yarn add --dev liferay-theme-autoprefixer-hook
-yarn add --dev liferay-theme-babel-hook
+yarn add --dev @smclab/liferay-theme-autoprefixer-hook
+yarn add --dev @smclab/liferay-theme-babel-hook
 ```
 
 After installing the desired hook add the following to your liferay theme's `package.json`
@@ -32,8 +32,8 @@ After installing the desired hook add the following to your liferay theme's `pac
   "liferayTheme": {
     "hookModules": [
       // Here you can choose which hook to keep
-      "liferay-theme-autoprefixer-hook",
-      "liferay-theme-babel-hook"
+      "@smclab/liferay-theme-autoprefixer-hook",
+      "@smclab/liferay-theme-babel-hook"
     ]
   }
 }
@@ -83,13 +83,13 @@ or you can add the following to you liferay theme's `package.json`
 
 ## Available hooks
 
-### liferay-theme-autoprefixer-hook
+### @smclab/liferay-theme-autoprefixer-hook
 
 This hook will execute `gulp-autoprefixer` after the css is delivered to the `build` directory.
 
 The browser compatibility will be retrived through Browserslist settings.
 
-### liferay-theme-babel-hook
+### @smclab/liferay-theme-babel-hook
 
 This hook will compile your javascript source code by using `gulp-babel`.
 
