@@ -74,4 +74,4 @@ or you can add the following to you liferay theme's `package.json`
 
 ## How it works
 
-This hook will autoprefix your css after liferay-theme-tasks delivers the transpiled css to the build directory.
+This hook will autoprefix your css using `gulp-autoprefixer` after liferay-theme-tasks delivers the transpiled css to the build directory.

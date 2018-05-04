@@ -74,4 +74,4 @@ or you can add the following to you liferay theme's `package.json`
 
 ## How it works
 
-This hook will execute babel to your theme's javascript after it is moved to the build directory.
+This hook will execute babel to your theme's javascript using `gulp-babel` after it is moved to the build directory.
