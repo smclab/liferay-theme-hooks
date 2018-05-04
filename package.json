@@ -1,22 +1,23 @@
 {
 	"private": true,
-	"workspaces": ["packages/*"],
+	"workspaces": [
+		"packages/*"
+	],
 	"name": "liferay-theme-hooks",
 	"scripts": {
-		"prettier":
-			"./node_modules/.bin/prettier.cmd --write packages/**/*.js packages/**/*.json *.json",
-		"eslint": "./node_modules/.bin/eslint packages/**/*.js"
+		"format": "prettier --write packages/**/*.js packages/**/*.json *.json",
+		"eslint": "eslint packages/**/*.js"
 	},
 	"version": "1.0.0",
 	"main": "index.js",
-	"license": "MIT",
+	"license": "LGPL-2.1",
 	"devDependencies": {
 		"eslint": "^4.19.1",
-		"eslint-config-airbnb-base": "^12.1.0",
 		"eslint-config-standard": "^11.0.0",
 		"eslint-plugin-import": "^2.11.0",
 		"eslint-plugin-node": "^6.0.1",
 		"eslint-plugin-promise": "^3.7.0",
-		"eslint-plugin-standard": "^3.1.0"
+		"eslint-plugin-standard": "^3.1.0",
+		"prettier": "^1.12.1"
 	}
 }
