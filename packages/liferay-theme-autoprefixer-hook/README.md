@@ -1,12 +1,12 @@
 # @smclab/liferay-theme-autoprefixer-hook
 
-This hook is meant to be used in combination with liferay-theme-tasks to automatically autoprefix your css.
+> A [Liferay Theme Tasks](https://github.com/liferay/liferay-theme-tasks) hook to automate CSS vendor prefixing
 
 If you found this hook useful you might consider checking out [liferay-theme-hooks](https://github.com/smclab/liferay-theme-hooks)!
 
 ## Installation
 
-After you created your theme (for example with the [Liferay Theme Generator](https://github.com/liferay/generator-liferay-theme)) you can add @smclab/liferay-theme-autoprefixer-hook by installing it inside your root folder:
+After you created your theme (for example with the [Liferay Theme Generator](https://github.com/liferay/generator-liferay-theme)) you can add `@smclab/liferay-theme-autoprefixer-hook` by installing it inside your root folder:
 
 ```bash
 cd my-awesome-theme
@@ -75,3 +75,21 @@ or you can add the following to you liferay theme's `package.json`
 ## How it works
 
 This hook will autoprefix your css using `gulp-autoprefixer` after liferay-theme-tasks delivers the transpiled css to the build directory.
+
+## License
+
+This library, *SMC's Liferay Theme Hooks*, is free software ("Licensed
+Software"); you can redistribute it and/or modify it under the terms of the [GNU
+Lesser General Public License](http://www.gnu.org/licenses/lgpl-2.1.html) as
+published by the Free Software Foundation; either version 2.1 of the License, or
+(at your option) any later version.
+
+This library is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; including but not limited to, the implied warranty of MERCHANTABILITY,
+NONINFRINGEMENT, or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General
+Public License for more details.
+
+You should have received a copy of the [GNU Lesser General Public
+License](http://www.gnu.org/licenses/lgpl-2.1.html) along with this library; if
+not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth
+Floor, Boston, MA 02110-1301 USA

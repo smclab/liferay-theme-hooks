@@ -1,12 +1,17 @@
 {
 	"name": "@smclab/liferay-theme-autoprefixer-hook",
 	"version": "1.0.0",
-	"description": "A liferay-theme-task hook for automating css addition of vendor prefixes",
+	"description":
+		"A Liferay Theme Tasks hook to automate CSS vendor prefixing",
+	"author": "Carlo Cervellin <carlo.cervellin@smc.it>",
 	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/smclab/liferay-theme-hooks.git"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
 	"license": "LGPL-2.1",
 	"dependencies": {
 		"autoprefixer": "^8.3.0",

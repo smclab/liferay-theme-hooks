@@ -1,6 +1,6 @@
 # SMC's Liferay Theme Hooks
 
-`liferay-theme-hooks` offers some packages that are meant to be used in combination with [liferay-theme-tasks](https://github.com/liferay/liferay-theme-tasks) in order to make working on a liferay theme a more modern and pleasurable experience.
+`liferay-theme-hooks` offers some packages that are meant to be used in combination with [Liferay Theme Tasks](https://github.com/liferay/liferay-theme-tasks) in order to make working on a Liferay theme a more modern and pleasurable experience.
 
 In particular we let developers
 

@@ -1,11 +1,10 @@
 {
 	"private": true,
-	"workspaces": [
-		"packages/*"
-	],
+	"workspaces": ["packages/*"],
 	"name": "liferay-theme-hooks",
 	"scripts": {
-		"format": "prettier --write \"packages/**/*.js\" \"packages/**/*.json\" \"*.json\"",
+		"format":
+			"prettier --write \"packages/**/*.js\" \"packages/**/*.json\" \"*.json\"",
 		"eslint": "eslint \"packages/**/*.js\""
 	},
 	"version": "1.0.0",
