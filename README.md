@@ -87,7 +87,7 @@ or you can add the following to you liferay theme's `package.json`
 
 This hook will execute `gulp-autoprefixer` after the css is delivered to the `build` directory.
 
-The browser compatibility will be retrived through Browserslist settings.k
+The browser compatibility will be retrived through Browserslist settings.
 
 ### liferay-theme-babel-hook
 
