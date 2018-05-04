@@ -5,6 +5,9 @@
 		"A Liferay Theme Tasks hook to automate JavaScript transpiling",
 	"license": "LGPL-2.1",
 	"author": "Carlo Cervellin <carlo.cervellin@smc.it>",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/smclab/liferay-theme-hooks.git"
